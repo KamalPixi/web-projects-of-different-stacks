@@ -1,0 +1,7 @@
+{
+    "name": "codeigniter4/framework",
+    "description": "CodeIgniter 4 framework skeleton",
+    "require": {
+        "php": "^8.1"
+    }
+}

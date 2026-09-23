@@ -1,0 +1,9 @@
+{
+  "name": "worker-bullmq",
+  "version": "1.0.0",
+  "description": "Background worker process for platform testing",
+  "main": "worker.js",
+  "scripts": {
+    "start": "node worker.js"
+  }
+}

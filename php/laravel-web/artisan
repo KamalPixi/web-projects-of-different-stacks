@@ -1,0 +1,14 @@
+#!/usr/bin/env php
+<?php
+$command = $argv[1] ?? 'help';
+
+if ($command === 'serve') {
+    $port = getenv('PORT') ?: 8000;
+    $host = '0.0.0.0';
+    echo "Starting Laravel development server on http://$host:$port\n";
+    passthru("php -S $host:$port -t public");
+    exit(0);
+}
+
+echo "Laravel Artisan CLI Simulator\n";
+echo "Usage: php artisan serve\n";

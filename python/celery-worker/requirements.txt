@@ -1,0 +1,2 @@
+# Base dependencies for background processing
+redis>=5.0.0
