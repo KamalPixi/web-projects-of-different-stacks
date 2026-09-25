@@ -1,5 +1,5 @@
 {
-    "name": "php-queue-worker",
+    "name": "test/php-queue-worker",
     "description": "Long running PHP queue worker process",
     "require": {
         "php": ">=8.1"

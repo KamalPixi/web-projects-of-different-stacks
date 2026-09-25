@@ -1,5 +1,5 @@
 {
-  "name": "plain-php-web",
+  "name": "test/plain-php-web",
   "description": "Standard PHP web application",
   "require": {
     "php": ">=8.1"
