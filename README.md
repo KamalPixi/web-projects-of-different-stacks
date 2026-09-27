@@ -31,6 +31,8 @@ Each project is designed to validate:
 | **.NET** | [`dotnet/webapi`](dotnet/webapi) | Web | ASP.NET Core 8 Web API | `dotnet run` (or publish DLL) | `GET /health` |
 | | [`dotnet/mvc-web`](dotnet/mvc-web) | Web | ASP.NET Core 8 MVC | `dotnet run` (or publish DLL) | `GET /health` |
 | | [`dotnet/background-worker`](dotnet/background-worker) | Worker | .NET 8 Background Service | `dotnet run` (or publish DLL) | N/A (Worker) |
+| **Static** | [`static/html-css-js`](static/html-css-js) | Static | Pure HTML / CSS / JS | Zero Build (Publish: `./`) | Static Page |
+| | [`static/vite-react-spa`](static/vite-react-spa) | Static | Vite + React SPA | `npm run build` (Publish: `dist`) | Static Page (SPA) |
 
 ---
 
